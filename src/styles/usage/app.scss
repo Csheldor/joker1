@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@import "../lib/core/reset";
+@import "./core/common";
+//@import "./core/aui";
+//重视：引入swiper的css（2016年6月22晚上一起一晚上的bug）
+@import "./core/swiper-3.3.1.min.css";
+
+
+// layout
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #eceef0 !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}
+
+// Views
+@import "./module/guide";
+@import "./module/details";
+@import "./module/my";
+@import "./module/nail";
+@import "./module/search";
+@import "./module/home";
+@import "./module/index";

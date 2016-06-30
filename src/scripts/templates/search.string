@@ -1,0 +1,55 @@
+<div class="m-home">
+  <!--页面头部  -->
+  <header>
+    <div>
+        <img src="images/chaobaida.png"/>
+    </div>
+    <div>
+        <i class="yo-ico">&#xe606;</i>
+    </div>
+  </header>
+
+  <!--搜索框-->
+	<section class="search-container">
+		<div class="search-bar">
+		  <a href="javascript:;">
+		    <img src="/joker/images/search1.jpg" alt="">
+		  </a>
+		</div>
+		<section class="search-content">
+			<nav>
+			  <ul class="search-navlist">
+			    <li class="active" action-type="search.switch.tabs">新品</li>
+			    <li action-type="search.switch.tabs">上衣</li>
+			    <li action-type="search.switch.tabs">裙子</li>
+			    <li action-type="search.switch.tabs">裤子</li>
+			    <li action-type="search.switch.tabs">鞋子</li>
+			    <li action-type="search.switch.tabs">包包</li>
+			    <li action-type="search.switch.tabs">配饰</li>
+			  </ul>
+			</nav>
+			<div class="search-prolist">
+        <div class="search-view" spa-widget="scroll">
+          <div class="search-scroll">
+              <ul ms-repeat-value="searchlist">
+                <li ms-repeat-tags="value.tags">
+                    <div class="search-proshow">
+                      <img alt="" ms-src="tags.picUrl">
+                      <p ms-text="tags.name"></p>
+                    </div>
+                </li>
+              </ul>
+          </div>
+        </div>
+
+        </div>
+
+			</div>
+		</section>
+	</section>
+
+
+
+
+
+</div>

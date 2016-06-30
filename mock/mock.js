@@ -1,0 +1,32 @@
+module.exports = {
+  rules: [
+    {
+      pattern:/\/api\/gethomepbllist.php\?rtype=origin$/,
+      respondwith:'./homepbllist.json'
+    },
+    {
+      pattern:/\/api\/gethomepbllist.php\?rtype=more$/,
+      respondwith:'./homepbllist-more.json'
+    },
+    {
+      pattern:/\/api\/gethomehotlist2.php\?rtype=origin$/,
+      respondwith:'./homehotlist2.json'
+    },
+    {
+      pattern:/\/api\/gethomehotlist3.php\?rtype=origin$/,
+      respondwith:'./homehotlist3.json'
+    },
+    {
+      pattern:/\/api\/gethomehotlist4.php\?rtype=origin$/,
+      respondwith:'./homehotlist4.json'
+    },
+    {
+      pattern:/\/api\/getsearchlist.php\?rtype=origin$/,
+      respondwith:'./searchlist.json'
+    },
+    {
+      pattern:/\/api\/gethomebanner.php\?rtype=origin$/,
+      respondwith:'./homebanner.json'
+    }
+  ]
+}

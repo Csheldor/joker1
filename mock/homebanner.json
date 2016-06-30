@@ -1,0 +1,51 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [{
+		"themes": [{
+			"img": "http:\/\/img02.taobaocdn.com\/imgextra\/i2\/533257358\/TB2PPFtcFXXXXa9XXXXXXXXXXXX-533257358.jpg",
+			"title": "五一活动",
+			"url": "http:\/\/www.chaobaida.com\/mobileapp\/activity?time=1430818276749"
+		}, {
+			"img": "http:\/\/img04.taobaocdn.com\/imgextra\/i4\/533257358\/TB2n0dgcFXXXXaQXXXXXXXXXXXX-533257358.jpg",
+			"title": "时尚美甲",
+			"url": "http:\/\/cbdapp.wx.jaeapp.com\/admin\/page\/items?uTags=bc_2"
+		}, {
+			"img": "http:\/\/img02.taobaocdn.com\/imgextra\/i2\/533257358\/TB2NQJccFXXXXacXpXXXXXXXXXX-533257358.jpg",
+			"title": "妆出精彩",
+			"url": "http:\/\/cbdapp.wx.jaeapp.com\/admin\/page\/items?uTags=bc_3"
+		}, {
+			"img": "http:\/\/img02.taobaocdn.com\/imgextra\/i2\/533257358\/TB2au9JcpXXXXXRXpXXXXXXXXXX-533257358.jpg",
+			"title": "清新女神",
+			"url": "http:\/\/cbdapp.wx.jaeapp.com\/admin\/page\/items?uTags=bc_4"
+		}, {
+			"img": "http:\/\/img04.taobaocdn.com\/imgextra\/i4\/533257358\/TB2UEyNcpXXXXa0XXXXXXXXXXXX-533257358.jpg",
+			"title": "初夏搭配",
+			"url": "http:\/\/cbdapp.wx.jaeapp.com\/admin\/page\/items?uTags=bc_5"
+		}],
+		"category": [{
+			"img": "http:\/\/img01.taobaocdn.com\/imgextra\/i1\/533257358\/TB2ykh5bVXXXXaTXXXXXXXXXXXX-533257358.png",
+			"title": "小编精选",
+			"titleColor": "#f582b0",
+			"url": "http:\/\/cbdapp.wx.jaeapp.com\/api\/items\/getItems"
+		}, {
+			"img": "http:\/\/img03.taobaocdn.com\/imgextra\/i3\/533257358\/TB234d8bVXXXXaaXXXXXXXXXXXX-533257358.png",
+			"title": "30元封顶",
+			"titleColor": "#a5d55e",
+			"url": "http:\/\/cbdapp.wx.jaeapp.com\/api\/items\/getItems?tags=2&highPrice=30"
+		}, {
+			"img": "http:\/\/img03.taobaocdn.com\/imgextra\/i3\/533257358\/TB2DbdWbVXXXXc3XXXXXXXXXXXX-533257358.png",
+			"title": "超性价比",
+			"titleColor": "#f57e7e",
+			"url": "http:\/\/cbdapp.wx.jaeapp.com\/api\/items\/getItems?tags=66&highPrice=50"
+		}, {
+			"img": "http:\/\/img01.taobaocdn.com\/imgextra\/i1\/533257358\/TB23LdQbVXXXXbBXpXXXXXXXXXX-533257358.png",
+			"title": "品牌热销",
+			"titleColor": "#f59b7b",
+			"url": "http:\/\/cbdapp.wx.jaeapp.com\/api\/items\/getItems?tags=6&st=2"
+		}]
+	}],
+	"msg": "",
+	"version": 9
+}

@@ -1,0 +1,241 @@
+<div class="m-home">
+  <!--页面头部  -->
+  <header>
+    <div>
+        <img src="images/chaobaida.png"/>
+    </div>
+    <div>
+        <i class="yo-ico">&#xe606;</i>
+    </div>
+  </header>
+
+  <!--页面局部滚动  -->
+  <div id="home-scroll" spa-widget="scroll" data-scroll-id="homeScroll">
+    <div class="home-wrapper">
+      <div class="home-refresh">
+        <img src="/joker/images/home-loadinglogo.png" alt="">
+        <sapn>下拉刷新...</sapn>
+      </div>
+      <!--banner轮播-->
+
+      <div class="banner">
+        <div class="swiper-container" id="oSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" ms-repeat-value="homebanner">
+                <img ms-src="value.img"/>
+
+            </div>
+          </div>
+          <!-- 如果需要分页器 -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <!--首页中部导航  -->
+      <nav>
+      <div class="nav">
+        <div class="navlist" action-type="switch.taps.homehot">
+          <img src="/joker/images/icon_1.png"/>
+          <p>小编精选</p>
+        </div>
+        <div class="navlist" action-type="switch.taps.homehot">
+          <img src="/joker/images/icon_2.png"/>
+          <p>30元封顶</p>
+        </div>
+        <div class="navlist" action-type="switch.taps.homehot">
+          <img src="/joker/images/icon_3.png"/>
+          <p>超性价比</p>
+        </div>
+        <div class="navlist" action-type="switch.taps.homehot">
+          <img src="/joker/images/icon_4.png"/>
+          <p>品牌热销</p>
+        </div>
+      </div>
+      </nav>
+
+      <div class="swiper-container homenavSwiper" id="homenav-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <!--瀑布流  -->
+            <section>
+              <div class="pbl-wrapper">
+                <ul>
+                  <li>
+                    <div class="pbl-proshow" ms-repeat-value="homepbllist" action-type="goto.details" ms-attr-data-id="value[0].iid">
+                      <img ms-src="value[0].img" alt=""/>
+                      <p>
+                        <span>
+                          <i class="yo-ico">&#xe605;</i>
+                          <em ms-text="value[0].price"></em>
+                        </span>
+                        <a href="javascript:;">购买</a>
+                      </p>
+                    </div>
+
+                  </li>
+                  <li></li>
+                  <li>
+                    <div class="pbl-proshow" ms-repeat-value="homepbllist" ms-class-hide="!value[1]" action-type="goto.details" ms-attr-data-id="value[1].iid">
+                      <img ms-src="value[1].img" alt=""/>
+                      <p>
+                        <span>
+                          <i class="yo-ico">&#xe605;</i>
+                          <em ms-text="value[1].price"></em>
+                        </span>
+                        <a href="javascript:;">购买</a>
+                      </p>
+                    </div>
+
+                  </li>
+                </ul>
+                  <div class="loading">
+                    <img src="/joker/images/home-loadinglogo.png" alt="">
+                    <sapn>正在加载...</sapn>
+                  </div>
+              </div>
+            </section>
+
+          </div>
+          <div class="swiper-slide">
+            <!--瀑布流  -->
+            <section>
+              <div class="pbl-wrapper">
+                <ul>
+                  <li>
+                    <div class="pbl-proshow" ms-repeat-value="homehotlist2" action-type="goto.details" ms-attr-data-id="value[0].iid">
+                      <img ms-src="value[0].img" alt=""/>
+                      <p>
+                        <span>
+                          <i class="yo-ico">&#xe605;</i>
+                          <em ms-text="value[0].price"></em>
+                        </span>
+                        <a href="javascript:;">购买</a>
+                      </p>
+                    </div>
+
+                  </li>
+                  <li></li>
+                  <li>
+                    <div class="pbl-proshow" ms-repeat-value="homehotlist2" ms-class-hide="!value[1]" action-type="goto.details" ms-attr-data-id="value[1].iid">
+                      <img ms-src="value[1].img" alt=""/>
+                      <p>
+                        <span>
+                          <i class="yo-ico">&#xe605;</i>
+                          <em ms-text="value[1].price"></em>
+                        </span>
+                        <a href="javascript:;">购买</a>
+                      </p>
+                    </div>
+
+                  </li>
+                </ul>
+                  <div class="loading">
+                    <img src="/joker/images/home-loadinglogo.png" alt="">
+                    <sapn>正在加载...</sapn>
+                  </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <!--瀑布流  -->
+            <section>
+              <div class="pbl-wrapper">
+                <ul>
+                  <li>
+                    <div class="pbl-proshow" ms-repeat-value="homehotlist3" action-type="goto.details" ms-attr-data-id="value[0].iid">
+                      <img ms-src="value[0].img" alt=""/>
+                      <p>
+                        <span>
+                          <i class="yo-ico">&#xe605;</i>
+                          <em ms-text="value[0].price"></em>
+                        </span>
+                        <a href="javascript:;">购买</a>
+                      </p>
+                    </div>
+
+                  </li>
+                  <li></li>
+                  <li>
+                    <div class="pbl-proshow" ms-repeat-value="homehotlist3" ms-class-hide="!value[1]" action-type="goto.details" ms-attr-data-id="value[1].iid">
+                      <img ms-src="value[1].img" alt=""/>
+                      <p>
+                        <span>
+                          <i class="yo-ico">&#xe605;</i>
+                          <em ms-text="value[1].price"></em>
+                        </span>
+                        <a href="javascript:;">购买</a>
+                      </p>
+                    </div>
+
+                  </li>
+                </ul>
+                  <div class="loading">
+                    <img src="/joker/images/home-loadinglogo.png" alt="">
+                    <sapn>正在加载...</sapn>
+                  </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <!--瀑布流  -->
+            <section>
+              <div class="pbl-wrapper">
+                <ul>
+                  <li>
+                    <div class="pbl-proshow" ms-repeat-value="homehotlist4" action-type="goto.details" ms-attr-data-id="value[0].iid">
+                      <img ms-src="value[0].img" alt=""/>
+                      <p>
+                        <span>
+                          <i class="yo-ico">&#xe605;</i>
+                          <em ms-text="value[0].price"></em>
+                        </span>
+                        <a href="javascript:;">购买</a>
+                      </p>
+                    </div>
+
+                  </li>
+                  <li></li>
+                  <li>
+                    <div class="pbl-proshow" ms-repeat-value="homehotlist4" ms-class-hide="!value[1]" action-type="goto.details" ms-attr-data-id="value[1].iid">
+                      <img ms-src="value[1].img" alt=""/>
+                      <p>
+                        <span>
+                          <i class="yo-ico">&#xe605;</i>
+                          <em ms-text="value[1].price"></em>
+                        </span>
+                        <a href="javascript:;">购买</a>
+                      </p>
+                    </div>
+
+                  </li>
+                </ul>
+                  <div class="loading">
+                    <img src="/joker/images/home-loadinglogo.png" alt="">
+                    <sapn>正在加载...</sapn>
+                  </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>

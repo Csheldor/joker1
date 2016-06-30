@@ -1,0 +1,57 @@
+<div class="m-my">
+	<!--页面头部  -->
+	<header>
+		<div>
+			<img src="images/chaobaida.png" />
+		</div>
+	</header>
+	<!--my页面content  -->
+	<section class="my-content">
+
+		
+		<div class="my-person">
+			<div class="my-photo">
+				<img src="/joker/images/my-photo.png" alt="">
+			</div>
+			<div class="my-signin">
+				<p>Hi~美妞</p>
+				<img src="/joker/images/my-signin.png" alt="">
+				<p class="my-sign-num">0</p>
+			</div>
+		</div>
+
+
+		<div class="my-navlist">
+			<ul>
+				<li>
+					<div class="list-items">
+						<i class="yo-ico">&#xe60f;</i>
+						<span>购物车</span>
+					</div>
+				</li>
+
+				<li>
+					<div class="list-items">
+						<i class="yo-ico">&#xe602;</i>
+						<span>小编答疑</span>
+					</div>
+				</li>
+
+				<li>
+					<div class="list-items">
+						<i class="yo-ico">&#xe601;</i>
+						<span>意见反馈</span>
+					</div>
+				</li>
+
+				<li>
+					<div class="list-items">
+						<i class="yo-ico">&#xe600;</i>
+						<span>检测更新</span>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</section>
+</div>

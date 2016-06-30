@@ -1,0 +1,306 @@
+<div class="m-details">
+  <header>
+    <i class="yo-ico" action-type="back">&#xe616;</i>
+    <p>布鲁格2016夏季新款淑女裙</p>
+  </header>
+  <nav class="details-nav">
+    <ul>
+      <li class="active" action-type="details.switch.tabs">基本信息</li>
+      <li action-type="details.switch.tabs">商品详情</li>
+      <li action-type="details.switch.tabs">
+        <i>评价</i>
+        <span>35028</span>
+      </li>
+    </ul>
+  </nav>
+  <section>
+
+    <div class="swiper-container" id="details-nav-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div spa-widget="scroll" id="details-scroll">
+            <div class="details-content">
+              <!-- details图片展示 -->
+              <div class="swiper-container" id="details-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img ms-src="img"/>
+                  </div>
+                  <div class="swiper-slide">
+                    <img ms-src="img"/>
+                  </div>
+                  <div class="swiper-slide">
+                    <img ms-src="img"/>
+                  </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <!--details产品描述  -->
+              <div class="details-pro-des">
+                <h5>布鲁格布鲁格布鲁格布鲁格布鲁格格布鲁格布鲁布鲁格布鲁格</h5>
+                <div>
+                  <i class="yo-ico">&#xe605;</i>
+                  <span ms-text="price"></span>
+                  <em>淘抢购</em>
+                </div>
+                <div>
+                  <span>价格</span>
+                  <em>&yen;98.00</em>
+                </div>
+                <div>
+                  <ul>
+                    <li><em>快递：</em><i>0.00</i></li>
+                    <li><em>月销量：</em><i>8505</i><em>件</em></li>
+                    <li>浙江金华</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul>
+                    <li><i class="yo-ico">&#xe611;</i>正品保证</li>
+                    <li><i class="yo-ico">&#xe611;</i>T2极速退款</li>
+                    <li><i class="yo-ico">&#xe611;</i>七天退换</li>
+                  </ul>
+                </div>
+                <div>
+                  <span>积分</span>&nbsp;送<i>9</i>天猫积分
+                </div>
+                <div>
+                  <span>选择：尺码/颜色分类</span>
+                  <i class="yo-ico">&#xe620;</i>
+                </div>
+              </div>
+              <!--店铺  -->
+              <div class="store">
+                <div>
+                  <a href="javascript:;">
+                    <img src="/joker/images/details-storelogo.gif" alt="">
+                  </a>
+                  <h6 ms-text="sname"></h6>
+                </div>
+                <div>
+                  <ul>
+                    <li>
+                      <span>描述相符</span>
+                      <em>4.8</em>
+                      <i class="yo-ico">&#xe617;</i>
+                    </li>
+                    <li>
+                      <span>服务态度</span>
+                      <em>4.6</em>
+                      <i class="yo-ico">&#xe617;</i>
+                    </li>
+                    <li>
+                      <span>发货速度</span>
+                      <em>4.6</em>
+                      <i class="yo-ico">&#xe617;</i>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <ul>
+                    <li>
+                      <i class="yo-ico">&#xe60e;</i>
+                      <span>全部商品</span>
+                    </li>
+                    <li>
+                      <i class="yo-ico">&#xe614;</i>
+                      <span>进入商品</span>
+                    </li>
+                  </ul>
+
+
+                </div>
+              </div>
+
+              <!-- details other -->
+              <div class="details-pro-other">
+                <h5>看了又看</h5>
+                <div class="pro-other">
+                  <div>
+                      <dl>
+                        <dt>
+                          <img src="/joker/images/home-pro-1.png" alt="" />
+                        </dt>
+                        <dd>
+                          <p>2016夏装新款大码修身雪纺...</p>
+                          <p>
+                            <span>&yen;39</span>
+                            <i>&yen;19.9</i>
+                          </p>
+                        </dd>
+                      </dl>
+                  </div>
+                  <div>
+                      <dl>
+                        <dt>
+                          <img src="/joker/images/home-pro-1.png" alt="" />
+                        </dt>
+                        <dd>
+                          <p>2016夏装新款大码修身雪纺...</p>
+                          <p>
+                            <span>&yen;39</span>
+                            <i>&yen;19.9</i>
+                          </p>
+                        </dd>
+                      </dl>
+                  </div>
+                  <div>
+                      <dl>
+                        <dt>
+                          <img src="/joker/images/home-pro-1.png" alt="" />
+                        </dt>
+                        <dd>
+                          <p>2016夏装新款大码修身雪纺...</p>
+                          <p>
+                            <span>&yen;39</span>
+                            <i>&yen;19.9</i>
+                          </p>
+                        </dd>
+                      </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        <div class="swiper-slide">
+          <div spa-widget="scroll" class="details-pro-pic">
+            <div>
+              <div class="details-pro-other">
+                <h5>同店推荐</h5>
+                <div class="pro-other">
+                  <div>
+                      <dl>
+                        <dt>
+                          <img src="/joker/images/home-pro-1.png" alt="" />
+                        </dt>
+                        <dd>
+                          <p>2016夏装新款大码修身雪纺...</p>
+                          <p>
+                            <i>&yen;19.9</i>
+                          </p>
+                        </dd>
+                      </dl>
+                  </div>
+                  <div>
+                      <dl>
+                        <dt>
+                          <img src="/joker/images/home-pro-1.png" alt="" />
+                        </dt>
+                        <dd>
+                          <p>2016夏装新款大码修身雪纺...</p>
+                          <p>
+                            <i>&yen;19.9</i>
+                          </p>
+                        </dd>
+                      </dl>
+                  </div>
+                  <div>
+                      <dl>
+                        <dt>
+                          <img src="/joker/images/home-pro-1.png" alt="" />
+                        </dt>
+                        <dd>
+                          <p>2016夏装新款大码修身雪纺...</p>
+                          <p>
+                            <i>&yen;19.9</i>
+                          </p>
+                        </dd>
+                      </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="details-pro-other">
+                <h5>店铺活动</h5>
+                <div class="pro-other">
+                  <div class="detials-pro-pic1">
+                    <img src="/joker/images/details-pro-pic1.png" alt="">
+                  </div>
+              </div>
+          </div>
+          <div class="details-pro-other">
+            <h5>商品图片</h5>
+            <div class="pro-other">
+              <div class="detials-pro-pic1">
+                <img src="/joker/images/details-pro-pic1.png" alt="">
+              </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+          <div spa-widget="scroll" class="evaluate">
+            <div class="eval-des">
+              <div class="keywords">
+                <span>全部</span>
+                <span>追加</span>
+                <span>有图(<i>1209</i>)</span>
+                <span>质量蛮好(<i>1209</i>)</span>
+                <span>码数很准(<i>1209</i>)</span>
+                <span>穿着效果好(<i>1209</i>)</span>
+                <span>衣服很舒服(<i>1209</i>)</span>
+                <span>尺寸有偏差(<i>1209</i>)</span>
+                <span>外形很好看(<i>1209</i>)</span>
+                <span>布料好(<i>1209</i>)</span>
+                <span>款式很潮(<i>1209</i>)</span>
+                <span>质量不行(<i>1209</i>)</span>
+                <span>做工很赞(<i>1209</i>)</span>
+              </div>
+              <div class="comment">
+                <div>
+                  <p>这个价格买到这么好的衣服面料也好喜欢喜欢的亲们就下手吧！</p>
+                  <figure>
+                    <img src="/joker/images/comment-pic-1.gif" alt="" />
+                    <img src="/joker/images/comment-pic-1.gif" alt="" />
+                  </figure>
+                  <p><span>颜色分类：</span><i>黑色</i></p>
+                  <p><span>尺码：</span><i>XXL</i></p>
+                  <p><span>杨***蓉</span><i>2016-06-07</i></p>
+                </div>
+                <div>
+                  <p>这个价格买到这么好的衣服面料也好喜欢喜欢的亲们就下手吧！</p>
+                  <figure>
+                    <img src="/joker/images/comment-pic-1.gif" alt="" />
+                    <img src="/joker/images/comment-pic-1.gif" alt="" />
+                  </figure>
+                  <p><span>颜色分类：</span><i>黑色</i></p>
+                  <p><span>尺码：</span><i>XXL</i></p>
+                  <p><span>杨***蓉</span><i>2016-06-07</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+      </div>
+    </div>
+
+
+
+
+  </section>
+  <footer>
+    <ul>
+      <li>
+        <i class="yo-ico active">&#xe60d;</i>
+        <p>客服</p>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe614;</i>
+        <p>进店</p>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe612;</i>
+        <p>收藏</p>
+      </li>
+      <li>
+        <a href="javascript:;">加入购物车</a>
+        <a href="javascript:;">立即购买</a>
+      </li>
+
+    </ul>
+  </footer>
+</div>

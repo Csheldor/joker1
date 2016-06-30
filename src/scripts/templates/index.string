@@ -1,0 +1,23 @@
+<div class="m-index">
+  <div class="l-container"></div>
+  <footer>
+    <div class="nav">
+      <div class="navlist active" action-type="switch.tabs" data-tag="home">
+        <i class="yo-ico">&#xe607;</i>
+        <p>逛街</p>
+      </div>
+      <div class="navlist" action-type="switch.tabs" data-tag="search">
+        <i class="yo-ico">&#xe603;</i>
+        <p>搜衣</p>
+      </div>
+      <div class="navlist" action-type="switch.tabs" data-tag="nail">
+        <i class="yo-ico">&#xe604;</i>
+        <p>美甲</p>
+      </div>
+      <div class="navlist" action-type="switch.tabs" data-tag="my">
+        <i class="yo-ico">&#xe609;</i>
+        <p>我的</p>
+      </div>
+    </div>
+  </footer>
+</div>

@@ -1,0 +1,94 @@
+.search-container {
+  //width:100%;
+  height:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  .search-bar {
+    width:100%;
+    height:0.34rem;
+    @include border(0 0 1px 0,#ccc);
+    a{
+      display: block;
+      img{
+        width:100%;
+      }
+    }
+  }
+  .search-content{
+     @include flex(1);
+     width:100%;
+     background: #fff;
+     @include flexbox();
+    nav{
+      width:0.61rem;
+      height:100%;
+      border-right:1px solid #ccc;
+      @include box-sizing(border-box);
+      .search-navlist{
+        width:100%;
+        li{
+          width:100%;
+          height: 0.46rem;
+          line-height: 0.46rem;
+          text-align: center;
+          color:#7d7d7d;
+          &.active{
+            color:#f4829f;
+          }
+        }
+      }
+    }
+    .search-prolist{
+      @include flex(1);
+      width:100%;
+      height:100%;
+      overflow: hidden;
+      .search-view{
+        width:100%;
+        height:100%;
+
+        .search-scroll{
+          padding:.06rem;
+            ul{
+              overflow: hidden;
+              display:none;
+              &.active{
+                display:block;
+              }
+              li{
+                height:0.78rem;
+                width:0.82rem;
+                float:left;
+                .search-proshow{
+                  height:100%;
+                  @include flexbox();
+                  @include flex-direction(column);
+                  @include justify-content(center);
+                  @include align-items(center);
+                  img{
+                    @include flex(1);
+                    width:.46rem;
+                    height:.60rem;
+
+                  }
+                  p{
+                    color:#8d8d8d;
+                    font-size:0.12rem;
+                  }
+                }
+
+              }
+            }
+
+
+
+
+
+
+
+        }
+
+      }
+    }
+  }
+}
